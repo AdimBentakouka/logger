@@ -12,3 +12,12 @@
 config.gypi
 CVS
 npm-debug.log
+/coverage
+/node_modules
+/tests
+/src
+readme.md
+tsconfig.json
+jest.config.js
+package-lock.json
+package.json

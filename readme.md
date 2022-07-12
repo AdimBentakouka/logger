@@ -2,7 +2,7 @@
 
 Permet d'obtenir des fichiers de logs et de les afficher sur la console
 
-##Exemple d'utilisation
+### Exemple d'utilisation
 
 ```javascript
 import Logger from "@Warzon/logger";
@@ -15,7 +15,7 @@ const logger = new Logger({ name: "app" });
 logger.info("Hello World");
 ```
 
-### Ou
+ou
 
 ```javascript
 const Logger = require("@Warzon/logger").Logger;
@@ -29,7 +29,7 @@ logger.info("Hello World");
 
 ---
 
-####Config constructor
+#### Config constructor
 
 ```javascript
 const config = {
@@ -46,7 +46,7 @@ const config = {
 
 ---
 
-####Level log
+#### Level log
 
 ```javascript
 import { Logger } from "@Warzon/logger";
